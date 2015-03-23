@@ -3,6 +3,10 @@ require 'redcarpet'
 require 'colorize'
 require 'open-uri'
 require 'uri'
+require 'dotenv'
+require 'aws-sdk'
+
+Dotenv.load
 
 POSTS_PATH = "/vagrant_data/diacode-website/source/blog"
 
